@@ -1,2 +1,2 @@
 # Python
-![kaggle certificate]('Pradip Sapkota-Python.png')
+![kaggle certificate](https://github.com/pradipsapkotag/python/blob/kaggle/Pradip%20Sapkota%20-%20Python.png)
