@@ -1,0 +1,61 @@
+Day 1:
+1. Git [https://www.atlassian.com/git][Windows and Linux DEMO(https://drive.google.com/file/d/1Og9VvCeCVLblGvEK7sNJe9-pws5CrAmg/view?usp=sharing)
+2. Python installation and group division
+3.  briefing
+[few links to learn python]
+
+Day 2:
+1. [few links to learn python]
+2. Cover these topics
+	Python Keywords and Identifiers
+	Python Statements, Indentation,Comments
+	Docstring
+	Python Variable, constant and literal
+	Python Data Type
+	Python Type Conversion and Type casting
+	Python input, output and import
+	Python Operators
+	Python namespace
+	Python Flow Control ( if else )
+	Python Loop (for, while)
+	Python break, continue and pass
+	Functions
+	Return statement
+	Function Arguments (Default, keyword, arbitrary)
+	Inbuilt functions
+	Python Anonymous/ Lambda Function
+	Filters, map functions
+	Local, Global variables
+	Python Data Types in details (List, Dictionary, Tuple, Set, Strings)
+3. Provide kaggle(https://www.kaggle.com/learn/python ) course
+	
+Day 3:
+Complete kaggle course in first half (till 2.p.m)
+Upload kaggle certificate to drive (https://drive.google.com/drive/folders/1Pz5oGW9Dw4E1XZaGvKukzCCSxOdMvznM?usp=sharing )
+Cover advanced topics on python
+      Python Advanced Topics
+Files
+Iterators
+Decorators (basic)
+List comprehension
+Dictionary Comprehension
+**args and **kwargs
+Class
+Inheritance
+Exception Handling 
+
+
+Day 4:
+Complete advanced topics in first half and push the codes in github till 1 p.m
+Discussion on Python debugger (https://drive.google.com/file/d/1NsmJRKQwwSfG0iGiJvMrIpTqQcu15jTM/view?usp=sharing)
+Start codewars practice (https://www.codewars.com/collections/python-practice-1) 
+Practice with a target of level 6 .
+
+Day 5:
+Continue codewars practice (target level 6 and push code into github till 1 p.m) (https://www.codewars.com/collections/python-practice-1) 
+Continue codewars (target 5) till (Day 6 first half) 
+Also, give extra resources for self-study(hackerrank) (https://www.hackerrank.com/domains/python)
+
+
+
+Now the file has more content!
