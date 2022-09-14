@@ -34,3 +34,23 @@
 
 ```localhost:5000/Q2/6``` <br>
 ![showall](https://github.com/pradipsapkotag/python/blob/api/images/given/Q2.png)
+
+### 3.Create an API to insert new records and return success message along with inserted data. 
+
+
+```localhost:5000/Q3``` <br>
+![showall](https://github.com/pradipsapkotag/python/blob/api/images/given/Q3.png)
+
+
+### 4. Create an api that update category ‘smartphones’ to ‘Smartphones’ and return status in json format. 
+
+
+```localhost:5000/Q4``` <br>
+![showall](https://github.com/pradipsapkotag/python/blob/api/images/given/Q4.png)
+
+### 5.Create an API  that returns the title, description, brand, price of all products whose rating is greater than 4 and have more than 10% discount.
+ 
+
+
+```localhost:5000/Q5``` <br>
+![showall](https://github.com/pradipsapkotag/python/blob/api/images/given/Q5.png)
