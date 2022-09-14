@@ -14,5 +14,5 @@
 ![deleteuser](https://github.com/pradipsapkotag/python/blob/api/images/own/userdeletefailed.png)
 
 ### add user
-```localhost:5000/adduser```
+```localhost:5000/adduser``` <br>
 ![adduser](https://github.com/pradipsapkotag/python/blob/api/images/own/addusersuccess.png)
