@@ -7,3 +7,4 @@
 #### [API](https://github.com/pradipsapkotag/python/tree/api)
 #### [Datacamp Codes](https://github.com/pradipsapkotag/python/tree/datacamp)
 #### [ORM](https://github.com/pradipsapkotag/python/tree/orm)
+#### [Pandas](https://github.com/pradipsapkotag/python/tree/pandas)
