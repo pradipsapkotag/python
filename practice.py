@@ -1,9 +1,11 @@
 import json
 from random import randint
 def adduser():
-    f= open('users.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('users.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('users.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     nd = {
         "id": data[-1]['id']+1,
         "name": data[randint(0,len(data)-1)]['name'],

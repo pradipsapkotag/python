@@ -6,8 +6,11 @@ app = Flask(__name__)
 
 @app.route('/Q1', methods = ['GET'])
 def question1():
-    f= open('products.json','r')
-    data = json.loads(f.read())
+    with open ('products.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('products.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     maximumprice = 0
     maximumrating = 0
 
@@ -25,9 +28,11 @@ def question1():
 
 @app.route('/Q2/<int:ide>',methods = ['GET', 'POST'])
 def question2(ide):
-    f= open('products.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('products.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('products.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     try:
         for i in range(len(data['products'])):
             try:
@@ -47,9 +52,11 @@ def question2(ide):
 
 @app.route('/Q4', methods = ['GET', 'POST'])
 def question4():
-    f= open('products.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('products.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('products.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     for item in data['products']:
         if(item['category']=='smartphones'):
             item['category']='Smartphones'
@@ -62,9 +69,11 @@ def question4():
 
 @app.route('/Q3', methods = ['GET', 'POST'])
 def question3():
-    f= open('products.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('products.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('products.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     nd = {
             "id": data['products'][-1]['id']+1,
             "title": "iPhone 9",
@@ -97,9 +106,11 @@ def question3():
 
 @app.route('/Q5', methods = ['GET'])
 def question5():
-    f= open('products.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('products.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('products.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     it=[]
     for item in data['products']:
         if(item['rating']>4 and item['discountPercentage']>10):

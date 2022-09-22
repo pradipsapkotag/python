@@ -9,18 +9,22 @@ app = Flask(__name__)
 # this will show all details
 @app.route('/showall', methods = ['GET'])
 def showall():
-    f= open('users.json','r')
-    data = json.loads(f.read())
-    
+    with open ('users.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('users.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     return f"<pre>{json.dumps(data,indent = 4)}</pre>" 
 
 
 # this will delete based on given id
 @app.route('/delete/<int:ide>',methods = ['GET', 'POST'])
 def delete(ide):
-    f= open('users.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('users.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('users.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     status = {'status':'failed','message':'User not deleted'}
     try:
         for i in range(len(data)):
@@ -44,9 +48,11 @@ def delete(ide):
 
 @app.route('/adduser', methods = ['GET', 'POST'])
 def adduser():
-    f= open('users.json','r')
-    data = json.loads(f.read())
-    f.close()
+    with open ('users.json','r') as f:
+            data = json.loads(f.read())
+    # f= open('users.json','r')
+    # data = json.loads(f.read())
+    # f.close()
     nd = {
         "id": data[-1]['id']+1,
         "name": data[randint(0,len(data)-1)]['name'],
